@@ -1,0 +1,11 @@
+go
+c++
+c#
+docker
+vb
+angular
+python
+sql
+react
+typescript
+git
