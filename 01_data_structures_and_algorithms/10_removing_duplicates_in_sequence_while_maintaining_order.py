@@ -44,6 +44,7 @@ print(list(dedupe(a, key=lambda d: d['x'])))
 # Discussion
 #  It is often easy to convert sequences to a set to
 #   remove duplicates
+a = [1, 5, 2, 1, 9, 1, 5, 10]
 print(a)  # [1, 5, 2, 1, 9, 1, 5, 10]
 print(set(a))  # {1, 2, 10, 5, 9}
 
@@ -56,7 +57,7 @@ print(set(a))  # {1, 2, 10, 5, 9}
 #  If you want to read a file, eliminating duplicate lines,
 #   you can utilize this recipe.
 
-with open(somefile, 'r') as f:
+with open('somefile.txt', 'r') as f:
     for line in dedupe(f):
         print(line)
 
