@@ -16,8 +16,8 @@ print(phone_numbers)  # [ '773-424-4432', '843-956-0100' ]
 
 sales_record = [92.4, 93.1, 93.8, 89.9, 90.1, 90.7, 93.6, 98.7]
 *trailing_qtrs, current_qtr = sales_record
-print(trailing_qrts)  # [ 92.4, 93.1, 93.8, 89.9, 90.1, 90.7, 93.6 ]
-print(current_qrt)  # 98.7
+print(trailing_qtrs)  # [ 92.4, 93.1, 93.8, 89.9, 90.1, 90.7, 93.6 ]
+print(current_qtr)  # 98.7
 
 # Discussion
 #  Extended iterable unpacking is useful when there are known

@@ -12,7 +12,7 @@ print(heapq.nsmallest(3, nums))  # [-4, 1, 2]
 
 #  Also contains a key parameter for complicated data structures
 
-porfolio = [
+portfolio = [
     {'name': 'IBM', 'shares': 100, 'price': 91.1},
     {'name': 'AAPL', 'shares': 50, 'price': 543.22},
     {'name': 'FB', 'shares': 200, 'price': 21.09},
@@ -22,7 +22,7 @@ porfolio = [
 ]
 
 cheap = heapq.nsmallest(3, portfolio, key=lambda s: s['price'])
-expensive = heapq.nlargest(3, protfolio, key=lambda s: s['price'])
+expensive = heapq.nlargest(3, portfolio, key=lambda s: s['price'])
 
 # Discussion
 #  These functions are optimized for performance.

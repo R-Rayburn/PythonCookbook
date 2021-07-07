@@ -39,7 +39,7 @@ d['b'].add(4)
 d = {}
 d.setdefault('a', []).append(1)
 d.setdefault('a', []).append(2)
-d.setdefault('b', []).appemd(4)
+d.setdefault('b', []).append(4)
 
 #  Many find setdefault() to be unnatural, and it always creates
 #   a new instance of the initial value on each invocation (the

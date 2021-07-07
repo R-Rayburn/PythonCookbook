@@ -24,7 +24,8 @@ for key in d:
 #   will do the trick.
 
 import json
-print(json.dump(d))  # '{"foo": 1, "bar": 2, "spam": 3, "grok": 4}'
+out_file = open('dump.json', 'w')
+json.dump(d, out_file, indent=4)  # '{"foo": 1, "bar": 2, "spam": 3, "grok": 4}'
 
 # Discussion
 #  An ordered dict internally maintains a doubly linked list that
